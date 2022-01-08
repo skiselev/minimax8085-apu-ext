@@ -64,7 +64,7 @@ The extension board provides 32 KiB SRAM, which can be switched in at address 0x
 
 #### Version 1.1
 
-[MiniMax8085 Extension on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=xxxxxxxxxx) - View and order all components except of the PCB and the APU.
+[MiniMax8085 Extension on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=52aba2a20b) - View and order all components except of the PCB and the APU.
 
 [MiniMax8085 Extension on OSH Park](https://oshpark.com/shared_projects/xxxxxxxx) - View and order the PCB.
 
@@ -80,7 +80,7 @@ Integrated Circut  | U6, U7     | 74HCT74 dual D-type flip flops, DIP-14      | 
 Integrated Circut  | U8         | 74HCT32 quad 2-input OR gate, DIP-14        | 1        | Mouser [595-SN74AHCT32N](https://www.mouser.com/ProductDetail/595-SN74AHCT32N)<br>Note: Possible replacements: 74HCT32, 74LS32, 74ALS32
 Integrated Circut  | U9         | 74HCT00 quad 2-input NAND gate, DIP-14      | 1        | Mouser [595-SN74AHCT00N](https://www.mouser.com/ProductDetail/595-SN74AHCT00N)<br>Note: Possible replacements: 74HCT00, 74LS00, 74ALS00
 DC-DC Converter    | U10        | TBA1-0512E, 5V to 12V, 1W DC-DC Converter, SIP-6 | 1   | Mouser [495-TBA1-0512E](https://www.mouser.com/ProductDetail/495-TBA1-0512E)
-IC Socket          | U1, U3     | DIP-24, 600 mil socket                      | 2        | Mouser [649-DILB32P223TLF](https://www.mouser.com/ProductDetail/649-DILB32P223TLF)
+IC Socket          | U1, U3     | DIP-24, 600 mil socket                      | 2        | Mouser [649-DILB24P-223TLF](https://www.mouser.com/ProductDetail/649-DILB24P-223TLF)
 IC Socket          | U2         | DIP-40, 600 mil socket                      | 1        | Mouser [649-DILB40P223TLF](https://www.mouser.com/ProductDetail/649-DILB40P223TLF)
 IC Socket          | U4         | DIP-28, 600 mil socket                      | 1        | Mouser [649-DILB28P223TLF](https://www.mouser.com/ProductDetail/649-DILB28P223TLF)
 IC Socket          | U5         | DIP-16, 300 mil socket                      | 1        | Mouser [649-DILB16P-223TLF](https://www.mouser.com/ProductDetail/649-DILB16P-223TLF)
