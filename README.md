@@ -66,7 +66,7 @@ The extension board provides 32 KiB SRAM, which can be switched in at address 0x
 
 [MiniMax8085 Extension on Mouser.com](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=52aba2a20b) - View and order all components except of the PCB and the APU.
 
-[MiniMax8085 Extension on OSH Park](https://oshpark.com/shared_projects/xxxxxxxx) - View and order the PCB.
+[MiniMax8085 Extension on OSH Park](https://oshpark.com/shared_projects/crN8OyKx) - View and order the PCB.
 
 Component type     | Reference  | Description                                 | Quantity | Possible sources and notes 
 ------------------ | ---------- | ------------------------------------------- | -------- | --------------------------
@@ -201,3 +201,19 @@ HEX code:
 :00000001FF
 </code></pre>
 
+## Release Notes
+
+### Changes
+
+* Version 1.1
+  * Fix DC-DC converter footprint
+  * Use rounded traces
+* Version 1.0
+  * Initial design
+
+### Known Issues
+
+* Version 1.1
+  * APU interrupt on operation completion should optional. Add a jumper to disconnect /END pin of U1/8231A from /INT signal
+* Version 1.0
+  * Incorrect footprint for U10 DC-DC converter
