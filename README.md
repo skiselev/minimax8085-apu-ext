@@ -12,7 +12,7 @@ It is designed to be plugged on the top of MiniMax8085 using 2x20 pin header / p
 
 ### Schematic and PCB Layout
 
-[Schematic - Version 1.1](Mini8085Ext-Schematic-1.1.pdf)
+[Schematic - Version 1.1](KiCad/Mini8085Ext-Schematic-1.1.pdf)
 
 [PCB Layout - Version 1.1](KiCad/Mini8085Ext-Board-1.1.pdf)
 
