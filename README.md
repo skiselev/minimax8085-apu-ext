@@ -72,28 +72,29 @@ Component type     | Reference  | Description                                 | 
 ------------------ | ---------- | ------------------------------------------- | -------- | --------------------------
 PCB                |            | MiniMax 8085 Extension PCB                  | 1        | Order from a PCB manufacturer of your choice using provided Gerber or KiCad files
 Integrated Circut  | U1         | Intel 8231A or AMD Am9511A APU, CERDIP-24   | 1        | eBay
-Integrated Circut  | U2         | Intel 8255A, Intersil 82C55A or similar     | 1        | Mouser
-Integrated Circut  | U3         | Intel 8254, Intersil 82C54 or similar       | 1        | Mouser
-Integrated Circut  | U4         | 62256, AS6C62256-55PCN or similar, DIP-28   | 1        | Mouser
-Integrated Circut  | U5         | 74HCT138 3-to-8 line decoder, DIP-16        | 1        | Mouser [595-SN74HCT138N](https://www.mouser.com/ProductDetail/595-SN74HCT138N)<br>Note: Possible replacements: 74AHCT138, 74LS138, 74ALS138
-Integrated Circut  | U6, U7     | 74HCT74 dual D-type flip flops, DIP-14      | 2        | Mouser [595-SN74HCT74N](https://www.mouser.com/ProductDetail/595-SN74HCT74N)<br>Note: Possible replacements: 74AHCT74, 74LS74, 74ALS74
-Integrated Circut  | U8         | 74HCT32 quad 2-input OR gate, DIP-14        | 1        | Mouser [595-SN74HCT32N](https://www.mouser.com/ProductDetail/595-SN74HCT32N)<br>Note: Possible replacements: 74AHCT32, 74LS32, 74ALS32
-Integrated Circut  | U9         | 74HCT00 quad 2-input NAND gate, DIP-14      | 1        | Mouser [595-SN74HCT00N](https://www.mouser.com/ProductDetail/595-SN74HCT00N)<br>Note: Possible replacements: 74AHCT00, 74LS00, 74ALS00
-DC-DC Converter    | U10        | TBA1-0512E                                  | 1        | Mouser
-IC Socket          | U1, U3     | DIP-24, 600 mil socket                      | 2        | Mouser
-IC Socket          | U2         | DIP-40, 600 mil socket                      | 1        | Mouser
-IC Socket          | U4         | DIP-28, 600 mil socket                      | 1        | Mouser
-IC Socket          | U5         | DIP-16, 300 mil socket                      | 1        | Mouser
-IC Socket          | U6 - U9    | DIP-14, 300 mil socket                      | 4        | Mouser
-Header             | JP1 - JP4  | 1x3 pin header, 2.54 mm pitch, straight     | 4        | Mouser
-Jumpers            | JP1 - JP4  | Jumper, 2.54 mm pitch                       | 4        | Mouser
-Header             | J1 - J3    | 2x3 pin header, 2.54 mm pitch, right angle  | 1        | Mouser
-Header             | J4         | 2x13 pin header, 2.54 mm pitch, right angle | 1        | Mouser
-Header             | J5         | 2x20 pin stacking header, 2.54 mm pitch, straight | 1  | Mouser 
-Capacitor          | C1 - C11   | 0.1 µF, MLCC, 5 mm lead spacing             | 11       | Mouser
-Capacitor          | C12, C13   | 47 µF, 25V, Electrolytic, 2.5 mm lead spacing | 2      | Mouser
-Resistor           | R1 - R3    | 1k                                          | 3        | Mouser
-Resistor           | R4, R4     | 4.7k                                        | 2        | Mouser
+Integrated Circut  | U2         | Intel 8255A, Intersil 82C55A or similar     | 1        | Mouser [968-CP82C55AZ](https://www.mouser.com/ProductDetail/968-CP82C55AZ)
+Integrated Circut  | U3         | Intel 8254, Intersil 82C54 or similar       | 1        | Mouser [968-CP82C54Z](https://www.mouser.com/ProductDetail/968-CP82C54Z)
+Integrated Circut  | U4         | 62256, AS6C62256-55PCN or similar, DIP-28   | 1        | Mouser [913-AS6C62256-55PCN](https://www.mouser.com/ProductDetail/913-AS6C62256-55PCN)
+Integrated Circut  | U5         | 74HCT138 3-to-8 line decoder, DIP-16        | 1        | Mouser [595-SN74AHCT138N](https://www.mouser.com/ProductDetail/595-SN74AHCT138N)<br>Note: Possible replacements: 74HCT138, 74LS138, 74ALS138
+Integrated Circut  | U6, U7     | 74HCT74 dual D-type flip flops, DIP-14      | 2        | Mouser [595-SN74AHCT74N](https://www.mouser.com/ProductDetail/595-SN74AHCT74N)<br>Note: Possible replacements: 74HCT74, 74LS74, 74ALS74
+Integrated Circut  | U8         | 74HCT32 quad 2-input OR gate, DIP-14        | 1        | Mouser [595-SN74AHCT32N](https://www.mouser.com/ProductDetail/595-SN74AHCT32N)<br>Note: Possible replacements: 74HCT32, 74LS32, 74ALS32
+Integrated Circut  | U9         | 74HCT00 quad 2-input NAND gate, DIP-14      | 1        | Mouser [595-SN74AHCT00N](https://www.mouser.com/ProductDetail/595-SN74AHCT00N)<br>Note: Possible replacements: 74HCT00, 74LS00, 74ALS00
+DC-DC Converter    | U10        | TBA1-0512E, 5V to 12V, 1W DC-DC Converter, SIP-6 | 1   | Mouser [495-TBA1-0512E](https://www.mouser.com/ProductDetail/495-TBA1-0512E)
+IC Socket          | U1, U3     | DIP-24, 600 mil socket                      | 2        | Mouser [649-DILB32P223TLF](https://www.mouser.com/ProductDetail/649-DILB32P223TLF)
+IC Socket          | U2         | DIP-40, 600 mil socket                      | 1        | Mouser [649-DILB40P223TLF](https://www.mouser.com/ProductDetail/649-DILB40P223TLF)
+IC Socket          | U4         | DIP-28, 600 mil socket                      | 1        | Mouser [649-DILB28P223TLF](https://www.mouser.com/ProductDetail/649-DILB28P223TLF)
+IC Socket          | U5         | DIP-16, 300 mil socket                      | 1        | Mouser [649-DILB16P-223TLF](https://www.mouser.com/ProductDetail/649-DILB16P-223TLF)
+IC Socket          | U6 - U9    | DIP-14, 300 mil socket                      | 4        | Mouser [649-DILB14P-223TLF](https://www.mouser.com/ProductDetail/649-DILB14P-223TLF)
+Header             | JP1 - JP4  | 1x3 pin header, 2.54 mm pitch, straight     | 4        | Mouser [649-68000-203HLF](https://www.mouser.com/ProductDetail/649-68000-203HLF)
+Jumpers            | JP1 - JP4  | Jumper, 2.54 mm pitch                       | 4        | Mouser [806-SX1100-B](https://www.mouser.com/ProductDetail/806-SX1100-B)
+Header             | J1 - J3    | 2x3 pin header, 2.54 mm pitch, right angle  | 1        | Mouser [649-68020-106HLF](https://www.mouser.com/ProductDetail/649-68020-106HLF)
+Header             | J4         | 2x13 pin header, 2.54 mm pitch, right angle | 1        | Mouser [649-68021-226HLF](https://www.mouser.com/ProductDetail/649-68021-226HLF)
+Header             | J5         | 2x20 pin stacking header, 2.54 mm pitch, straight | 1  | Mouser [855-M20-6102045](https://www.mouser.com/ProductDetail/855-M20-6102045), Mouser [200-ESQ12014LD](https://www.mouser.com/ProductDetail/200-ESQ12014LD)
+Capacitor          | C1 - C11   | 0.1 µF, MLCC, 5 mm lead spacing             | 11       | Mouser [810-FG28X7R1H104KNT6](https://www.mouser.com/ProductDetail/810-FG28X7R1H104KNT6)
+Capacitor          | C12, C13   | 47 µF, 25V, Electrolytic, 2.5 mm lead spacing | 2      | Mouser [80-A750EK476M1EAAE40](https://www.mouser.com/ProductDetail/80-A750EK476M1EAAE40)
+Resistor           | R1 - R3    | 1k                                          | 3        | Mouser [603-MFR-25FBF52-1K](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1K)
+Resistor           | R4, R4     | 4.7k                                        | 2        | Mouser [603-MFR-25FBF52-4K7](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-4K7)
+Standoff           |            | 15.24 mm x M3, PC104 stacking standoff      | 4        | Mouser [855-R6104-02](https://www.mouser.com/ProductDetail/855-R6104-02)
 
 ## Programming Extension Board
 
