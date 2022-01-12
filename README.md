@@ -3,7 +3,7 @@ Arithmetic Processor and Extension Board for MiniMax 8085 SBC
 
 ## Introduction
 
-The MiniMax 8085 Extension board adds to [MiniMax 8085 SBC](https://github.com/skiselev/minimax8085) an AMD Am9511A / Intel 8231A Arithmetic Processor Unit (APU), Intel 8255 Programmable Parallel Interface (PPI), Intel 8254 Programmable Interrupt Timer (PIT), and switchable 32 KiB SRAM, that can swapped in instead of MiniMax 8085 on-board ROM. 
+The MiniMax 8085 Arithmetic Processor and Extension board adds to [MiniMax 8085 SBC](https://github.com/skiselev/minimax8085) an AMD Am9511A / Intel 8231A Arithmetic Processor Unit (APU), Intel 8255 Programmable Parallel Interface (PPI), Intel 8254 Programmable Interrupt Timer (PIT), and switchable 32 KiB SRAM, that can swapped in instead of MiniMax 8085 on-board ROM. 
 It is designed to be plugged on the top of MiniMax8085 using 2x20 pin header / pin socket.
 
 ![MiniMax8085 with APU Extension](images/MiniMax8085-APU_Ext.jpg)
@@ -94,9 +94,13 @@ Capacitor          | C1 - C11   | 0.1 µF, MLCC, 5 mm lead spacing             |
 Capacitor          | C12, C13   | 47 µF, 25V, Electrolytic, 2.5 mm lead spacing | 2      | Mouser [80-A750EK476M1EAAE40](https://www.mouser.com/ProductDetail/80-A750EK476M1EAAE40)
 Resistor           | R1 - R3    | 1k                                          | 3        | Mouser [603-MFR-25FBF52-1K](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1K)
 Resistor           | R4, R4     | 4.7k                                        | 2        | Mouser [603-MFR-25FBF52-4K7](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-4K7)
-Standoff           |            | 15.24 mm x M3, PC104 stacking standoff      | 4        | Mouser [855-R6104-02](https://www.mouser.com/ProductDetail/855-R6104-02)
+Standoff           |            | 15.24 mm x M3, PC/104 stacking standoff     | 4        | Mouser [855-R6104-02](https://www.mouser.com/ProductDetail/855-R6104-02)
 
-## Programming Extension Board
+## Installing Programming MiniMax 8085 Arithmetic Processor and Extension board
+
+The board stacks together with MiniMax 8085 SBC using PC/104 style 2x20 pin headers. See the BOM above for the recommended part numbers
+
+## Programming MiniMax 8085 Arithmetic Processor and Extension board
 
 ### APU
 
