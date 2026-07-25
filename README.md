@@ -94,6 +94,7 @@ Capacitor          | C1 - C11   | 0.1 µF, MLCC, 5 mm lead spacing             |
 Capacitor          | C12, C13   | 47 µF, 25V, Electrolytic, 2.5 mm lead spacing | 2      | Mouser [80-A750EK476M1EAAE40](https://www.mouser.com/ProductDetail/80-A750EK476M1EAAE40)
 Resistor           | R1 - R3    | 1k                                          | 3        | Mouser [603-MFR-25FBF52-1K](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1K)
 Resistor           | R4, R4     | 4.7k                                        | 2        | Mouser [603-MFR-25FBF52-4K7](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-4K7)
+Polyfuse           | F1         | 1.1 A, radial, 5 mm pitch                   | 1        | Mouser [652-MFR110](https://www.mouser.com/ProductDetail/652-MFR110)<br>Note: Optional if not populating J4
 Standoff           |            | 15.24 mm x M3, PC/104 stacking standoff     | 4        | Mouser [855-R6104-02](https://www.mouser.com/ProductDetail/855-R6104-02)
 
 ## Installing Programming MiniMax 8085 Arithmetic Processor and Extension board
